@@ -24,6 +24,9 @@ import pandas as pd
 
 -Fonte de dados: cases = pd.read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-12-2021.csv', sep=',')
 
+![image](https://github.com/user-attachments/assets/fc1fb1ec-ae49-48c7-b606-39599e8de9d9)
+
+
 # Integração AWS IAM / S3 / Athena: Tem por objetivo realizar o particionamento do arquivo extraido em aula, diminuindo os custos e a velocidade de processamento, além de facilitar na manipulação dos dados e criação de dashboards.
 
 Foi feito a integração entre o Github e o AWS. 
@@ -46,6 +49,9 @@ import pandas as pd
 import seaborn as sns
 
 - Fonte de dados: !wget -q "https://raw.githubusercontent.com/andre-marcos-perez/ebac-course-utils/main/dataset/deliveries.json" -O deliveries.json
+
+![image](https://github.com/user-attachments/assets/a743dd20-2adf-4c27-8e23-1ed492b5af7d)
+
 
 # Projeto API - Telegram/AWS: 
 
